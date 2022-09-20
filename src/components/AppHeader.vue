@@ -1,10 +1,10 @@
 <template>
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-gray-200">
         <div class="flex-1">
             <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
-        <div class="flex-none gap-2">
-            <div class="form-control">
+        <div class="flex-none px-10">
+            <div class="form-control px-10">
                 <form id="search-box" action="#">
                     <label :data-state="state" for="search">
                         <input type="text" placeholder="Search" @click="state = 'open'" @blur="state='close'" />
